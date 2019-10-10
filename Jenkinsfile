@@ -1,4 +1,5 @@
 pipeline {
+	agent any
 	stages {
 		stage('linux_64bit') {
 			steps {
